@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>googlemerchantfeed</name>
+    <displayName><![CDATA[Google Merchant Feed | Google Shopping Expert]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Google Merchant Feed: Take Full Control of Your Product Data, Reviews, Promotions, Google Customer Reviews, and More!]]></description>
+    <author><![CDATA[Kbizsoft]]></author>
+    <tab><![CDATA[seo]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall the module Google Shopping Export PRO (Google Shopping)?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+</module>
