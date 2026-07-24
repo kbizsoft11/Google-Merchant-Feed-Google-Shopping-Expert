@@ -1,0 +1,34 @@
+{    "name": "kbizsoft/googlemerchantfeed",
+    "description": "'The PRO version of Google Merchant Center: even more control on product data, export of reviews and special offers.",
+    "license": "see file: LICENSE.txt",
+    "authors": [
+        {
+            "name": " kbizsoft",
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GoogleMerchantFeed\\Admin\\": "lib/admin",
+            "GoogleMerchantFeed\\Common\\": "lib/common",
+            "GoogleMerchantFeed\\Dao\\": "lib/dao",
+            "GoogleMerchantFeed\\Exclusion\\": "lib/exclusion",
+            "GoogleMerchantFeed\\Hook\\": "lib/hook",
+            "GoogleMerchantFeed\\Xml\\": "lib/xml",
+            "GoogleMerchantFeed\\Reviews\\": "lib/reviews",
+            "GoogleMerchantFeed\\Models\\": "models",
+            "GoogleMerchantFeed\\Controllers\\": "controllers",
+            "GoogleMerchantFeed\\Configuration\\": "conf",
+            "GoogleMerchantFeed\\Install\\": "lib/install",
+            "GoogleMerchantFeed\\ModuleLib\\": "lib"
+        },
+        "exclude-from-classmap": []
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "prepend-autoloader": false
+      }
+}
